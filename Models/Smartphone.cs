@@ -25,5 +25,9 @@ namespace DesafioPOO.Models
         }
 
         public abstract void InstalarAplicativo(string nomeApp);
+         public override string ToString()
+        {
+            return $"\nNúmero: {Numero} \nModelo: {Modelo} \nIMEI: {IMEI}  \nMemória: {Memoria}GB";
+        }
     }
 }
